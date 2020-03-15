@@ -1,0 +1,5 @@
+[user]
+	name = Arpit Batra
+    
+[core]
+    excludesfile = ~/.gitignore
