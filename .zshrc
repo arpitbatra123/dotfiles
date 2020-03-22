@@ -7,6 +7,7 @@ alias ls='ls -l'
 alias ez='code ~/Documents/dotfiles/.zshrc'
 # load the shell config
 alias sz='source ~/.zshrc'
+alias nr='npm run'
 
 # git aliases
 alias gco='git checkout'
@@ -18,7 +19,7 @@ function gituser () {
 }
 
 function gitgohome () {
-    git config --local user.name "Arpit Batra"
+    git config --local user.email "arpitbatra123@gmail.com"
     gituser;
 }
 
@@ -47,3 +48,6 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # for quick path jumping using z. `brew install z` first
 . /usr/local/etc/profile.d/z.sh
+
+# project specific aliases
+alias supdash='cd ~/Documents/postman-support-dashboard; fnm use 10; concurrently "node app.js" "npm run webpack-dev" '
