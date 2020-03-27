@@ -8,6 +8,7 @@ alias ez='code ~/Documents/dotfiles/.zshrc'
 # load the shell config
 alias sz='source ~/.zshrc'
 alias nr='npm run'
+alias vi='nvim'
 
 # git aliases
 alias gco='git checkout'
