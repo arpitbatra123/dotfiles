@@ -1,5 +1,7 @@
 [user]
     name = Arpit Batra
+    useConfigOnly = true
+    
     
 [core]
     excludesfile = ~/.gitignore
