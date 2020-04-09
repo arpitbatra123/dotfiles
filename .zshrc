@@ -8,6 +8,8 @@ alias ez='code ~/Documents/dotfiles/.zshrc'
 # load the shell config
 alias sz='source ~/.zshrc'
 alias vi='nvim'
+alias startdb='brew services start redis; brew services start mariadb;'
+alias stopdb='brew services stop redis; brew services stop mariadb;'
 
 # git aliases
 alias gco='git checkout'
