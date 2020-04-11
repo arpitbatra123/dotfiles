@@ -8,8 +8,8 @@ alias ez='code ~/Documents/dotfiles/.zshrc'
 # load the shell config
 alias sz='source ~/.zshrc'
 alias vi='nvim'
-alias startdb='brew services start redis; brew services start mariadb;'
-alias stopdb='brew services stop redis; brew services stop mariadb;'
+alias startdb='brew services start redis; brew services start mysql@5.7'
+alias stopdb='brew services stop redis; brew services stop mysql@5.7'
 
 # git aliases
 alias gco='git checkout'
@@ -56,4 +56,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 . /usr/local/etc/profile.d/z.sh
 
 # project specific aliases
-alias supdash='cd ~/Documents/postman-support-dashboard; fnm use 10; concurrently "node app.js" "npm run webpack-dev" '
+alias supdash='cd ~/Documents/postman-support-dashboard; fnm use 10; concurrently "node app.js" "npm run webpack-dev"'
+
+# use node version in .nvrmrc
+fnm use;
