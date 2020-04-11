@@ -10,6 +10,7 @@ alias sz='source ~/.zshrc'
 alias vi='nvim'
 alias startdb='brew services start redis; brew services start mysql@5.7'
 alias stopdb='brew services stop redis; brew services stop mysql@5.7'
+alias python='python3'
 
 # git aliases
 alias gco='git checkout'
@@ -58,5 +59,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # project specific aliases
 alias supdash='cd ~/Documents/postman-support-dashboard; fnm use 10; concurrently "node app.js" "npm run webpack-dev"'
 
-# use node version in .nvrmrc
-fnm use;
+# use node version in .nvrmrc, if it exists
+if test -f ".nvmrc"; then
+    fnm use;
+fi
