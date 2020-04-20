@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
     "window.zoomLevel": -1,
-    "workbench.colorTheme": "A Touch of Lilac Theme",
+    "workbench.colorTheme": "Ayu Mirage Bordered",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.codeActionsOnSave": {
@@ -21,7 +21,15 @@
     ],
     "liveServer.settings.donotShowInfoMsg": true,
     "files.associations": {
-        "*.liquid": "html",
-        "*.jsx": "javascript"
-      }
+        "*.liquid": "html"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
