@@ -31,5 +31,6 @@
     "explorer.confirmDelete": false,
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "prettier.configPath": "~/prettier.config.js"
 }

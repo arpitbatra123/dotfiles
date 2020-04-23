@@ -4,7 +4,7 @@ eval "$(fnm env --multi)"
 # aliases
 alias ls='ls -l'
 # edit the zsh shell config
-alias ez='code ~/Documents/dotfiles/.zshrc'
+alias ez='code ~/Documents/dotfiles'
 # load the shell config
 alias sz='source ~/.zshrc'
 alias vi='nvim'
