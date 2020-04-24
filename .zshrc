@@ -22,7 +22,7 @@ alias ncu='npx npm-check-updates -u'
 
 # util functions
 function gituser () {
-    echo "git name is now '`git config --local user.name`' and email is '`git config --local user.email`'"
+    echo "git name is now '`git config --global user.name`' and email is '`git config --local user.email`'"
 }
 
 function gitgohome () {
@@ -59,7 +59,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 . /usr/local/etc/profile.d/z.sh
 
 # project specific aliases
-alias supdash='cd ~/Documents/postman-support-dashboard; fnm use 10; concurrently "node app.js" "npm run webpack-dev"'
+alias supdash='cd ~/Documents/postman-support-dashboard; fnm use; concurrently "node app.js" "npm run webpack-dev"'
 
 # use node version in .nvrmrc, if it exists
 if test -f ".nvmrc"; then

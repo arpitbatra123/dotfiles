@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
     "window.zoomLevel": -1,
-    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "workbench.colorTheme": "Default Light+",
     "editor.fontSize": 14,
     "editor.fontLigatures": true,
     "editor.codeActionsOnSave": {
@@ -32,5 +32,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "prettier.configPath": "~/prettier.config.js"
+    "prettier.configPath": "~/prettier.config.js",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
