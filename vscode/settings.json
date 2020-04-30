@@ -1,42 +1,42 @@
 {
-    "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
-    "window.zoomLevel": -1,
-    "workbench.colorTheme": "Default Light+",
-    "editor.fontSize": 14,
-    "editor.fontLigatures": true,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true
-    },
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "cSpell.allowCompoundWords": true,
-    "cSpell.logLevel": "Warning",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    "workbench.startupEditor": "welcomePage",
-    "cSpell.userWords": [
-        "eleventy",
-        "neighbourhood",
-        "spotify"
-    ],
-    "liveServer.settings.donotShowInfoMsg": true,
-    "files.associations": {
-        "*.liquid": "html"
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "explorer.confirmDelete": false,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.configPath": "~/prettier.config.js",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+  "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "window.zoomLevel": -1,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "cSpell.userWords": [
+    "API's",
+    "Arpit",
+    "Batra",
+    "Objs",
+    "arpitbatra",
+    "cooldown",
+    "eleventy",
+    "gtag",
+    "inspo",
+    "linkify",
+    "neighbourhood",
+    "spotify"
+  ],
+  "breadcrumbs.enabled": false,
+  "workbench.settings.editor": "json",
+  "files.associations": {
+    "*.liquid": "html"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.configPath": "~/prettier.config.js",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.view.alwaysShowHeaderActions": false
 }
