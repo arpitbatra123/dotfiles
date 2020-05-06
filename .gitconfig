@@ -1,7 +1,11 @@
 [user]
-    name = Arpit Batra
-    useConfigOnly = true
-    
-    
+name = Arpit Batra
+# Don't allow commits without setting up name and email
+useConfigOnly = true
+
 [core]
-    excludesfile = ~/.gitignore
+excludesfile = ~/.gitignore
+
+[push]
+# Set upstream to current while pushing new branches
+default = current
