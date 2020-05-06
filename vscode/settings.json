@@ -10,7 +10,9 @@
     "API's",
     "Arpit",
     "Batra",
+    "Favourites",
     "Objs",
+    "Plex",
     "arpitbatra",
     "cooldown",
     "eleventy",
@@ -18,12 +20,14 @@
     "inspo",
     "linkify",
     "neighbourhood",
+    "nullish",
     "spotify"
   ],
   "breadcrumbs.enabled": false,
   "workbench.settings.editor": "json",
   "files.associations": {
-    "*.liquid": "html"
+    "*.liquid": "html",
+    ".zsh-aliases": "shellscript"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,5 +42,8 @@
   "editor.minimap.enabled": false,
   "editor.hideCursorInOverviewRuler": true,
   "workbench.editor.tabCloseButton": "off",
-  "workbench.view.alwaysShowHeaderActions": false
+  "workbench.view.alwaysShowHeaderActions": false,
+  "workbench.colorTheme": "Default Light+",
+  "explorer.confirmDelete": false,
+  "editor.cursorSmoothCaretAnimation": true
 }
