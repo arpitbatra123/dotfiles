@@ -1,0 +1,26 @@
+# util functions
+function gituser () {
+    echo "git name is now '`git config --global user.name`' and email is '`git config --local user.email`'"
+}
+
+function gitgohome () {
+    git config --local user.email "arpitbatra123@gmail.com"
+    gituser;
+}
+
+function gitgowork () {
+    git config --local user.email "arpit.batra@postman.com"
+    gituser;
+}
+
+# Source : https://danishpraka.sh/2018/07/06/git-branch-zsh.html
+function git_branch() {
+    branchref=$(git symbolic-ref HEAD 2> /dev/null)
+    if [[ $branchref == "" ]]; then
+        :
+    else
+    # Source: https://stackoverflow.com/questions/16623835/remove-a-fixed-prefix-suffix-from-a-string-in-bash
+        branch=${branchref#"refs/heads/"}
+        echo '('$branch')'
+    fi
+}

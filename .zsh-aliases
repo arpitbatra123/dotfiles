@@ -1,0 +1,27 @@
+# aliases
+alias ll='ls -l'
+# edit the zsh shell config
+alias ez='code ~/Documents/dotfiles'
+# load the shell config
+alias sz='source ~/.zshrc'
+alias vi='nvim'
+alias startdb='brew services start redis; brew services start mysql@5.7'
+alias stopdb='brew services stop redis; brew services stop mysql@5.7'
+alias python='python3'
+alias ytd='youtube-dl'
+alias hub='git'
+# dump installed packages to brew file
+alias brewdump='brew bundle dump'
+# open VSCode even faster
+alias c.='code .'
+
+# git aliases
+alias gco='git checkout'
+alias gp='git pull'
+
+# node aliases
+alias nr='npm run'
+alias ncu='npx npm-check-updates -u' 
+
+# project specific aliases
+alias supdash='cd ~/Documents/postman-support-dashboard; fnm use; concurrently "node app.js" "npm run webpack-dev"'
