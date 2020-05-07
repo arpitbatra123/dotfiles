@@ -18,5 +18,5 @@ if test -f ".nvmrc"; then
 fi
 
 # source aliases and functions
-source .zsh-aliases
-source .zsh-functions
+source ~/Documents/dotfiles/.zsh-aliases
+source ~/Documents/dotfiles/.zsh-functions
