@@ -27,7 +27,8 @@
   "workbench.settings.editor": "json",
   "files.associations": {
     "*.liquid": "html",
-    ".zsh-aliases": "shellscript"
+    ".zsh-aliases": "shellscript",
+    ".zsh-functions": "shellscript"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -43,7 +44,10 @@
   "editor.hideCursorInOverviewRuler": true,
   "workbench.editor.tabCloseButton": "off",
   "workbench.view.alwaysShowHeaderActions": false,
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "Solarized Light",
   "explorer.confirmDelete": false,
-  "editor.cursorSmoothCaretAnimation": true
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.iconTheme": "ayu",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }

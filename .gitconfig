@@ -8,4 +8,10 @@ excludesfile = ~/.gitignore
 
 [push]
 # Set upstream to current while pushing new branches
+# This assumes that the remote and local branches have the same name, which is often in my case
+# helps with just doing git push -u, on a new branch
 default = current
+
+[pull]
+# rebase while pulling
+rebase = true

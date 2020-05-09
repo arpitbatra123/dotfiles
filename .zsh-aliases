@@ -9,7 +9,7 @@ alias startdb='brew services start redis; brew services start mysql@5.7'
 alias stopdb='brew services stop redis; brew services stop mysql@5.7'
 alias python='python3'
 alias ytd='youtube-dl'
-alias hub='git'
+alias git='hub'
 # dump installed packages to brew file
 alias brewdump='brew bundle dump'
 # open VSCode even faster
