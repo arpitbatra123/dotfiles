@@ -11,13 +11,16 @@ alias python='python3'
 alias ytd='youtube-dl'
 alias git='hub'
 # dump installed packages to brew file
-alias brewdump='brew bundle dump'
+alias brewdump='brew bundle dump --force'
 # open VSCode even faster
 alias c.='code .'
 
 # git aliases
 alias gco='git checkout'
 alias gp='git pull'
+alias gs='git status -sb'
+alias gst='git stash'
+alias gsa='git stash apply'
 
 # node aliases
 alias nr='npm run'
