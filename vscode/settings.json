@@ -1,11 +1,13 @@
 {
-  "editor.fontFamily": "Jetbrains Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code",
   "window.zoomLevel": -1,
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
+  "editor.lineHeight": 24,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "editor.lineNumbers": "off",
   "cSpell.userWords": [
     "API's",
     "Arpit",
@@ -26,7 +28,9 @@
     "noopener",
     "nullish",
     "slugify",
-    "spotify"
+    "spotify",
+    "textbox",
+    "viewports"
   ],
   "breadcrumbs.enabled": false,
   "workbench.settings.editor": "json",
@@ -49,7 +53,7 @@
   "editor.hideCursorInOverviewRuler": true,
   "workbench.editor.tabCloseButton": "off",
   "workbench.view.alwaysShowHeaderActions": false,
-  "workbench.colorTheme": "Gatito Theme",
+  "workbench.colorTheme": "New Moon",
   "explorer.confirmDelete": false,
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.iconTheme": "ayu",
@@ -59,4 +63,11 @@
   "terminal.integrated.confirmOnExit": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 120,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "none",
 }
