@@ -1,7 +1,6 @@
 {
   "editor.fontFamily": "Fira Code",
   "editor.fontWeight": "300",
-  "window.zoomLevel": -1,
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 24,
@@ -43,7 +42,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.configPath": "~/prettier.config.js",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -68,8 +66,8 @@
   "prettier.jsxBracketSameLine": true,
   "prettier.jsxSingleQuote": true,
   "prettier.printWidth": 120,
-  "prettier.requireConfig": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "terminal.integrated.shell.osx": "/bin/zsh",
+  "window.zoomLevel": 0
 }
