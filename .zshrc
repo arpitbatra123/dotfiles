@@ -9,6 +9,9 @@ PROMPT='%1~ $(git_branch) $ '
 # `brew install zsh-autosuggestions` first
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# auto completion for git-extras
+source $(brew --prefix)/opt/git-extras/share/git-extras/git-extras-completion.zsh
+
 # for quick path jumping using z. `brew install z` first
 . /usr/local/etc/profile.d/z.sh
 

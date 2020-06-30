@@ -69,5 +69,6 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "explorer.confirmDragAndDrop": false
 }
