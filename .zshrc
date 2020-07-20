@@ -23,3 +23,5 @@ fi
 # source aliases and functions
 source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
+
+export PATH=~/Library/Python/3.7/bin:$PATH

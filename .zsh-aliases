@@ -29,3 +29,6 @@ alias ncu='npx npm-check-updates -u'
 # project specific aliases
 alias supdash='cd ~/Documents/postman-support-dashboard; fnm use; concurrently "node app.js" "npm run webpack-dev"'
 alias onb='cd ~/Documents/postman-onboarding-ui; rm -rf assets/js/ fnm use; concurrently "node app.js" "npm run webpack-dev"'
+
+alias python='python3'
+alias pip='pip3'

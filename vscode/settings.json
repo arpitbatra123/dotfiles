@@ -52,10 +52,10 @@
   "editor.hideCursorInOverviewRuler": true,
   "workbench.editor.tabCloseButton": "off",
   "workbench.view.alwaysShowHeaderActions": false,
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "workbench.colorTheme": "Purrp",
   "explorer.confirmDelete": false,
   "editor.cursorSmoothCaretAnimation": true,
-  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "workbench.iconTheme": null,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -69,6 +69,9 @@
   "prettier.singleQuote": true,
   "prettier.trailingComma": "none",
   "terminal.integrated.shell.osx": "/bin/zsh",
-  "window.zoomLevel": 0,
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "workbench.activityBar.visible": true,
+  "cSpell.enableFiletypes": [
+    "!python"
+  ]
 }
