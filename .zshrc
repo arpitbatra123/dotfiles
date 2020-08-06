@@ -25,3 +25,6 @@ source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
 
 export PATH=~/Library/Python/3.7/bin:$PATH
+
+# Added by serverless binary installer
+export PATH="$HOME/.serverless/bin:$PATH"

@@ -1,9 +1,9 @@
 {
   "editor.fontFamily": "Fira Code",
-  "editor.fontWeight": "300",
-  "editor.fontSize": 14,
+  "editor.fontWeight": "400",
+  "editor.fontSize": 18,
   "editor.fontLigatures": true,
-  "editor.lineHeight": 24,
+  "editor.lineHeight": 30,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
@@ -32,7 +32,7 @@
     "textbox",
     "viewports"
   ],
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "workbench.settings.editor": "json",
   "files.associations": {
     "*.liquid": "html",
@@ -52,14 +52,13 @@
   "editor.hideCursorInOverviewRuler": true,
   "workbench.editor.tabCloseButton": "off",
   "workbench.view.alwaysShowHeaderActions": false,
-  "workbench.colorTheme": "Purrp",
+  "workbench.colorTheme": "GitHub Dark",
   "explorer.confirmDelete": false,
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.iconTheme": null,
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.confirmOnExit": true,
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -73,5 +72,16 @@
   "workbench.activityBar.visible": true,
   "cSpell.enableFiletypes": [
     "!python"
-  ]
+  ],
+  "python.languageServer": "Microsoft",
+  "extensions.ignoreRecommendations": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.avatars": false,
+  "gitlens.hovers.enabled": false,
+  "gitlens.views.lineHistory.enabled": false,
+  "gitlens.views.search.enabled": false,
+  "gitlens.views.compare.enabled": false,
+  "window.zoomLevel": 0
 }
