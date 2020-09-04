@@ -5,6 +5,9 @@ useConfigOnly = true
 
 [core]
 excludesfile = ~/.gitignore
+# mac os is case insensitive, 
+# but that can make file renames with just a case change problematic on case sensitive file systems such as linux
+ignorecase = false
 
 [push]
 # Set upstream to current while pushing new branches
