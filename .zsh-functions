@@ -15,13 +15,11 @@ function gitgowork() {
 
 # Source : https://danishpraka.sh/2018/07/06/git-branch-zsh.html
 function git_branch() {
-    branchref=$(git symbolic-ref HEAD 2>/dev/null)
-    if [[ $branchref == "" ]]; then
+    branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
+    if [[ ${branch} == "" ]]; then
         :
     else
-        # Source: https://stackoverflow.com/questions/16623835/remove-a-fixed-prefix-suffix-from-a-string-in-bash
-        branch=${branchref#"refs/heads/"}
-        echo '('$branch')'
+        echo '('${branch}')'
     fi
 }
 
