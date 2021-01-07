@@ -1,5 +1,5 @@
 # fnm
-eval "$(fnm env --multi)"
+eval "$(fnm env)"
 
 # Required for showing git branch in prompt
 setopt prompt_subst
