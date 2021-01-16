@@ -17,4 +17,4 @@ default = current
 
 [pull]
 # rebase while pulling
-rebase = true
+rebase = false
