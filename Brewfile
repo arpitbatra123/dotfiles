@@ -9,6 +9,7 @@ brew "exiftool"
 brew "fnm"
 brew "git-extras"
 brew "hub"
+brew "k6"
 brew "mysql@5.7", restart_service: true, link: true
 brew "redis", restart_service: true
 brew "youtube-dl"
