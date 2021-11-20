@@ -8,9 +8,9 @@ alias vi='nvim'
 alias startdb='brew services start mysql@5.7'
 alias stopdb='brew services stop mysql@5.7'
 alias startredis='brew services start redis;'
-alias python='python3'
 alias ytd='youtube-dl'
-alias git='hub'
+alias python='python3'
+alias pip='pip3'
 # dump installed packages to brew file
 alias brewdump='brew bundle dump --force'
 # open VSCode even faster
@@ -28,10 +28,5 @@ alias nr='npm run'
 alias ncu='npx npm-check-updates -u' 
 
 # project specific aliases
-alias supdash='cd ~/Documents/postman-support-dashboard; fnm use; concurrently "node app.js" "npm run webpack-dev"'
-alias onb='cd ~/Documents/postman-onboarding-ui; rm -rf assets/js/ fnm use; concurrently "node app.js" "npm run webpack-dev"'
 alias art='cd ~/Documents/postman-app; yarn start --target browser'
 alias artopen='cd ~/Documents/postman-app; yarn open --target browser'
-
-alias python='python3'
-alias pip='pip3'
