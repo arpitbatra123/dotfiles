@@ -9,7 +9,7 @@ function gitgohome() {
 }
 
 function gitgowork() {
-    git config --local user.email "arpit.batra@postman.com"
+    git config --local user.email "whereto@tothestars.com"
     gituser
 }
 
