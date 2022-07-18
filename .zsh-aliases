@@ -25,8 +25,4 @@ alias gsa='git stash apply'
 
 # node aliases
 alias nr='npm run'
-alias ncu='npx npm-check-updates -u' 
-
-# project specific aliases
-alias art='cd ~/Documents/postman-app; fnm use; yarn start --target browser'
-alias artopen='cd ~/Documents/postman-app; fnm use; yarn open --target browser'
+alias ncu='npx npm-check-updates -u'
