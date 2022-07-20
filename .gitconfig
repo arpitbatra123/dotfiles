@@ -18,3 +18,5 @@ default = current
 [pull]
 # rebase while pulling
 rebase = false
+[init]
+	defaultBranch = main

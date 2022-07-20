@@ -1,6 +1,6 @@
 # fnm
 # The below line was added due to WSL
-export PATH=/home/arpit/.fnm:$PATH 
+export PATH=/home/arpit/.fnm:$PATH
 eval "$(fnm env)"
 
 # Required for showing git branch in prompt
@@ -28,3 +28,5 @@ fi
 # source aliases and functions
 source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
+eval 
+TWILIO_AC_ZSH_SETUP_PATH=/Users/arbatra/.twilio-cli/autocomplete/zsh_setup && test -f $TWILIO_AC_ZSH_SETUP_PATH && source $TWILIO_AC_ZSH_SETUP_PATH; # twilio autocomplete setupeval export PATH="/Users/arbatra/.jenv/shims:${PATH}"
