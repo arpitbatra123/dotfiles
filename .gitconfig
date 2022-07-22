@@ -1,7 +1,8 @@
 [user]
 name = Arpit Batra
+	email = arbatra@twilio.com
 # Don't allow commits without setting up name and email
-useConfigOnly = true
+# useConfigOnly = true
 
 [core]
 excludesfile = ~/.gitignore

@@ -26,3 +26,6 @@ alias gsa='git stash apply'
 # node aliases
 alias nr='npm run'
 alias ncu='npx npm-check-updates -u'
+
+# extra
+alias xbrew="arch -x86_64 /usr/local/bin/brew"
