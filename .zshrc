@@ -1,9 +1,5 @@
 zmodload zsh/zprof
 # Run zprof later to profile
-# fnm
-export PATH=/home/arpit/.fnm:$PATH
-eval "$(fnm env)"
-
 # Required for showing git branch in prompt
 setopt prompt_subst
 
@@ -28,13 +24,3 @@ fi
 # source aliases and functions
 source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
-
-# twilio related stuff
-# eval TWILIO_AC_ZSH_SETUP_PATH=/Users/arbatra/.twilio-cli/autocomplete/zsh_setup && test -f TWILIO_AC_ZSH_SETUP_PATH && source $TWILIO_AC_ZSH_SETUP_PATH
-# twilio autocomplete setupeval
-# export PATH="/Users/arbatra/.jenv/shims:${PATH}"
-# export PATH="$HOME/.jenv/bin:$PATH"
-# eval "$(jenv init -)"
-
-export OWL="/Users/arbatra/Documents/owl"
-eval "$("$OWL/bin/owl" init -)"
