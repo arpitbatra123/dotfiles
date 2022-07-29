@@ -24,3 +24,6 @@ fi
 # source aliases and functions
 source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
+
+eval "$(fnm env)"
+eval "$(/usr/local/bin/brew shellenv)"
