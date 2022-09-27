@@ -29,3 +29,8 @@ alias ncu='npx npm-check-updates -u'
 
 # extra
 alias xbrew="arch -x86_64 /usr/local/bin/brew"
+
+# twilio specific
+alias art="yarn flex:start"
+alias tst="yarn flex:test --no-coverage --watchAll"
+alias docs="yarn flex:docs:run"

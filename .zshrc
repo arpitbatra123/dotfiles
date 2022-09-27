@@ -6,7 +6,7 @@ setopt prompt_subst
 PROMPT='%1~ $(git_branch) $ '
 
 # `brew install zsh-autosuggestions` first
-# source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 # source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -15,6 +15,8 @@ PROMPT='%1~ $(git_branch) $ '
 
 # for quick path jumping using z. `brew install z` first
 # . /usr/local/etc/profile.d/z.sh
+
+eval "$(fnm env --use-on-cd)"
 
 # use node version in .nvrmrc, if it exists
 if test -f ".nvmrc"; then
@@ -25,5 +27,4 @@ fi
 source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
 
-eval "$(fnm env)"
 eval "$(/usr/local/bin/brew shellenv)"
