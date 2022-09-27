@@ -16,12 +16,8 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # for quick path jumping using z. `brew install z` first
 # . /usr/local/etc/profile.d/z.sh
 
+# auto switch node versions based on .nvmrc
 eval "$(fnm env --use-on-cd)"
-
-# use node version in .nvrmrc, if it exists
-if test -f ".nvmrc"; then
-    fnm use
-fi
 
 # source aliases and functions
 source ~/Documents/dotfiles/.zsh-aliases
