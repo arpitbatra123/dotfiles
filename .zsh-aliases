@@ -34,3 +34,7 @@ alias xbrew="arch -x86_64 /usr/local/bin/brew"
 alias art="yarn flex:start"
 alias tst="yarn flex:test --no-coverage --watchAll"
 alias docs="yarn flex:docs:run"
+
+# jest aliases
+alias ntc="nr test -- --clearCache"
+alias ntco="nr test -- --coverage"

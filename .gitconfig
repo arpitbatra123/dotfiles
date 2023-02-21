@@ -1,6 +1,6 @@
 [user]
 name = Arpit Batra
-	email = arbatra@twilio.com
+	email = arpitbatra123@gmail.com
 # Don't allow commits without setting up name and email
 # useConfigOnly = true
 
@@ -21,3 +21,8 @@ default = current
 rebase = false
 [init]
 	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
