@@ -6,5 +6,4 @@ launch.json
 .npmrc
 TODO.md
 
-
-src/scratchpad/*
+.vscode/settings.json

@@ -32,8 +32,9 @@ alias xbrew="arch -x86_64 /usr/local/bin/brew"
 
 # twilio specific
 alias art="yarn flex:start"
-alias tst="yarn flex:test --no-coverage --watchAll"
+alias tst="yarn flex:test --no-coverage --watchAll --u"
 alias docs="yarn flex:docs:start"
+alias tstc = "yarn flex-core:test --watch --no-coverage"
 
 # jest aliases
 alias ntc="nr test -- --clearCache"
