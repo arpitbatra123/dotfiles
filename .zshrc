@@ -23,14 +23,8 @@ eval "$(fnm env --use-on-cd)"
 source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
 
-eval "$(/usr/local/bin/brew shellenv)"
-# twilio autocomplete setup
-eval
-TWILIO_AC_ZSH_SETUP_PATH=/Users/arbatra/.twilio-cli/autocomplete/zsh_setup && test -f $TWILIO_AC_ZSH_SETUP_PATH && source $TWILIO_AC_ZSH_SETUP_PATH
 
 # pnpm
 export PNPM_HOME="/Users/arbatra/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
-# Created by `pipx` on 2023-09-07 06:00:08
-export PATH="$PATH:/Users/arbatra/.local/bin"

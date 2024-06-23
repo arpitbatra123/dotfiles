@@ -5,10 +5,6 @@ alias ez='code ~/Documents/dotfiles'
 # load the shell config
 alias sz='source ~/.zshrc'
 alias vi='nvim'
-alias startdb='brew services start mysql@5.7'
-alias stopdb='brew services stop mysql@5.7'
-alias startredis='brew services start redis;'
-alias ytd='youtube-dl'
 alias python='python3'
 alias pip='pip3'
 # dump installed packages to brew file
@@ -30,12 +26,4 @@ alias ncu='npx npm-check-updates -u'
 # extra
 alias xbrew="arch -x86_64 /usr/local/bin/brew"
 
-# twilio specific
-alias art="yarn flex:start"
-alias tst="yarn flex:test --no-coverage --watchAll --u"
-alias docs="yarn flex:docs:start"
-alias tstc = "yarn flex-core:test --watch --no-coverage"
-
 # jest aliases
-alias ntc="nr test -- --clearCache"
-alias ntco="nr test -- --coverage"

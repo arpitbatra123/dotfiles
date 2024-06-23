@@ -1,3 +1,1 @@
-# pyenv
-eval "$(pyenv init --path)"
-eval "$(jenv init -)"
+eval "$(/opt/homebrew/bin/brew shellenv)"

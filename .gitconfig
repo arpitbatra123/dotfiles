@@ -2,7 +2,7 @@
 name = Arpit Batra
 	email = arpitbatra123@gmail.com
 # Don't allow commits without setting up name and email
-# useConfigOnly = true
+useConfigOnly = true
 
 [core]
 excludesfile = ~/.gitignore
