@@ -6,7 +6,7 @@ setopt prompt_subst
 PROMPT='%1~ $(git_branch) $ '
 
 # `brew install zsh-autosuggestions` first
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 # source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -28,3 +28,10 @@ source ~/Documents/dotfiles/.zsh-functions
 export PNPM_HOME="/Users/arbatra/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
+
+# fnm
+FNM_PATH="/Users/arpit/Library/Application Support/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/Users/arpit/Library/Application Support/fnm:$PATH"
+  eval "`fnm env`"
+fi
