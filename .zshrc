@@ -17,7 +17,6 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # . /usr/local/etc/profile.d/z.sh
 
 # auto switch node versions based on .nvmrc
-eval "$(fnm env --use-on-cd)"
 
 # source aliases and functions
 source ~/Documents/dotfiles/.zsh-aliases
@@ -29,9 +28,3 @@ export PNPM_HOME="/Users/arbatra/Library/pnpm"
 export PATH="$PNPM_HOME:$PATH"
 # pnpm end
 
-# fnm
-FNM_PATH="/Users/arpit/Library/Application Support/fnm"
-if [ -d "$FNM_PATH" ]; then
-  export PATH="/Users/arpit/Library/Application Support/fnm:$PATH"
-  eval "`fnm env`"
-fi
