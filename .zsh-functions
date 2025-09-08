@@ -8,6 +8,7 @@ function gitgohome() {
     gituser
 }
 
+# probably not to be used since i work mostly on public projects
 function gitgowork() {
     git config --local user.email "arpit.batra@storyblok.com"
     gituser
