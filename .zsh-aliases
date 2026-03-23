@@ -26,7 +26,22 @@ alias ncu='npx npm-check-updates -u'
 # extra
 alias xbrew="arch -x86_64 /usr/local/bin/brew"
 
-# jest aliases
 
 # org aliases
-alias proxy="local-ssl-proxy --source 3010 --target 3000 --cert ~/Documents/localhost.pem --key ~/Documents/localhost-key.pem"
+#alias proxy="local-ssl-proxy --source 3010 --target 3000 --cert ~/Documents/localhost.pem --key ~/Documents/localhost-key.pem"
+
+# aliases for tb work
+# alias q="harbor tasks check --model openai/@openai-tbench"
+# alias z='rm engine/fin-engine.zip ; cd engine ; zip -r fin-engine.zip . -x "*.DS_Store"'
+# alias or="harbor run --agent oracle --path"
+# alias aic="harbor run \
+# -a terminus-2 \
+# -m openai/@openai-tbench/gpt-5 \
+# --n-attempts 5 \
+# -p"
+# alias nop="harbor run --agent nop --path"
+
+
+# alias cursorperso='open -na "/Applications/Cursor_perso.app" \
+# 	--args --user-data-dir="$HOME/.cursor-profile-2" \
+#       --extensions-dir="$HOME/.cursor-profile-2/extensions"'

@@ -1,5 +1,3 @@
-zmodload zsh/zprof
-# Run zprof later to profile
 # Required for showing git branch in prompt
 setopt prompt_subst
 
@@ -23,12 +21,24 @@ source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
 
 
-# pnpm
-export PNPM_HOME="/Users/arbatra/Library/pnpm"
-export PATH="$PNPM_HOME:$PATH"
-# pnpm end
-
-
+# nvm (lazy-loaded for fast shell startup)
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nvm() {
+  unset -f nvm node npm npx 2>/dev/null
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+  nvm "$@"
+}
+node() { nvm --version > /dev/null 2>&1; unset -f node 2>/dev/null; command node "$@"; }
+npm() { nvm --version > /dev/null 2>&1; unset -f npm 2>/dev/null; command npm "$@"; }
+npx() { nvm --version > /dev/null 2>&1; unset -f npx 2>/dev/null; command npx "$@"; }
+
+
+
+# bun completions
+[ -s "/Users/arpitbatra/.bun/_bun" ] && source "/Users/arpitbatra/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="/Users/arpitbatra/.local/bin:$PATH"
