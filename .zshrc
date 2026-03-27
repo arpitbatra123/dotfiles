@@ -21,17 +21,10 @@ source ~/Documents/dotfiles/.zsh-aliases
 source ~/Documents/dotfiles/.zsh-functions
 
 
-# nvm (lazy-loaded for fast shell startup)
+# nvm
 export NVM_DIR="$HOME/.nvm"
-nvm() {
-  unset -f nvm node npm npx 2>/dev/null
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-  nvm "$@"
-}
-node() { nvm --version > /dev/null 2>&1; unset -f node 2>/dev/null; command node "$@"; }
-npm() { nvm --version > /dev/null 2>&1; unset -f npm 2>/dev/null; command npm "$@"; }
-npx() { nvm --version > /dev/null 2>&1; unset -f npx 2>/dev/null; command npx "$@"; }
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 
 
